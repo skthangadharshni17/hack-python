@@ -1,0 +1,7 @@
+ p=int(input("Enter principle amount:"))
+ t=int(input("Enter no.of years:"))
+ r=int(input("Enter rate of interest:"))
+ SI=(p*t*r)/100
+ CI=p*(1+(r/100))**t-p
+ print("The simple interest is ",SI)
+ print("The compound interest is ",CI)
